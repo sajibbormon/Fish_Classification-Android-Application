@@ -61,7 +61,7 @@ This video demonstrates selecting fish images taken at a local market from the d
 
 This video demonstrates capturing fish images directly at a local market using the device camera and classifying them with the application.
 
-[▶️ Watch Camera-Based Fish Classification Demo]([https://drive.google.com/file/d/VIDEO_FILE_ID_2/view](https://drive.google.com/file/d/12i4N9xYddJYF7TyNG7IumaDtxD7mCiB2/view?usp=sharing))
+[▶️ Watch Camera-Based Fish Classification Demo]([https://drive.google.com/file/d/VIDEO_FILE_ID_2/view](https://drive.google.com/file/d/12i4N9xYddJYF7TyNG7IumaDtxD7mCiB2/view?usp=sharing)
 
 > **Note:** Replace `VIDEO_FILE_ID_1` and `VIDEO_FILE_ID_2` with your actual Google Drive video file IDs. Make sure both videos have sharing access set to **Anyone with the link – Viewer**.
 
