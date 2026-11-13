@@ -21,31 +21,31 @@ The following screenshots demonstrate how the application works, from opening th
 
 The home screen provides the main options for using the application.
 
-![Application Home Screen](assets/1.jpg)
+![Application Home Screen](Assets/1.jpg)
 
 ### 2. Selecting an Image and Removing Background
 
 Users can select a fish image from their device gallery and then it will automatically remove the background.
 
-![Selecting Fish Image](assets/2.jpg)
+![Selecting Fish Image](Assets/2.jpg)
 
 ### 3. Background Removed and Ready to Classify
 
 After selecting an image, the application displays the selected fish image after background removal.
 
-![Background Removed Fish Image](assets/3.jpg)
+![Background Removed Fish Image](Assets/3.jpg)
 
 ### 4. Before Classification
 
 The application removes the unwanted background and replaces it with a white background, keeping the fish object for classification.
 
-![Preprocessed Image](assets/4.jpg)
+![Preprocessed Image](Assets/4.jpg)
 
 ### 5. Fish Classification Result
 
 After background removal, the processed image is passed to the trained TensorFlow Lite model, and the application displays the predicted fish category.
 
-![Fish Classification Result](assets/5img.jpg)
+![Fish Classification Result](Assets/5img.jpg)
 
 ## 🎥 Real-World Application Demonstrations
 
