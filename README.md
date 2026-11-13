@@ -67,7 +67,7 @@ This video demonstrates capturing fish images directly at a local market using t
 
 <p align="center">
   <a href="https://drive.google.com/file/d/12i4N9xYddJYF7TyNG7IumaDtxD7mCiB2/view?usp=sharing">
-    <img src="https://raw.githubusercontent.com/sajibbormon/Fish_Classification-Android-Application/main/Assets/5img.jpg" width="560" height="315" style="object-fit: contain;" alt="Watch Camera-Based Fish Classification Demo"/>
+    <img src="https://raw.githubusercontent.com/sajibbormon/Fish_Classification-Android-Application/main/Assets/1.jpg" width="560" height="315" style="object-fit: contain;" alt="Watch Camera-Based Fish Classification Demo"/>
   </a>
   <br/>
   ▶️ <b>Click the thumbnail to watch the demonstration video.</b>
