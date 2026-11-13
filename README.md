@@ -21,43 +21,57 @@ The following screenshots demonstrate how the application works, from opening th
 
 The home screen provides the main options for using the application.
 
-![Application Home Screen](Assets/1.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sajibbormon/Fish_Classification-Android-Application/main/Assets/1.jpg" width="280" height="500" style="object-fit: contain;" alt="Application Home Screen"/>
+</p>
 
-### 2. Selecting an Image and Removing Background
+### 2. Selecting an Image
 
-Users can select a fish image from their device gallery and then it will automatically remove the background.
+Users can select a fish image from their device gallery. The application then automatically starts the background removal process.
 
-![Selecting Fish Image](Assets/2.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sajibbormon/Fish_Classification-Android-Application/main/Assets/2.jpg" width="280" height="500" style="object-fit: contain;" alt="Selecting Fish Image"/>
+</p>
 
-### 3. Background Removed and Ready to Classify
+### 3. Background Removed Image
 
-After selecting an image, the application displays the selected fish image after background removal.
+After image processing, the application displays the fish with the unwanted background removed.
 
-![Background Removed Fish Image](Assets/3.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sajibbormon/Fish_Classification-Android-Application/main/Assets/3.jpg" width="280" height="500" style="object-fit: contain;" alt="Background Removed Fish Image"/>
+</p>
 
-### 4. Before Classification
+### 4. Processed Image Before Classification
 
-The application removes the unwanted background and replaces it with a white background, keeping the fish object for classification.
+The processed image has a white background and is ready to be passed to the fish classification model.
 
-![Preprocessed Image](Assets/4.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sajibbormon/Fish_Classification-Android-Application/main/Assets/4.jpg" width="280" height="500" style="object-fit: contain;" alt="Preprocessed Fish Image"/>
+</p>
 
 ### 5. Fish Classification Result
 
 After background removal, the processed image is passed to the trained TensorFlow Lite model, and the application displays the predicted fish category.
 
-![Fish Classification Result](Assets/5img.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sajibbormon/Fish_Classification-Android-Application/main/Assets/5img.jpg" width="280" height="500" style="object-fit: contain;" alt="Fish Classification Result"/>
+</p>
 
-## 🎥 Real-World Application Demonstrations
+## 🎥 Real-World Application Demonstration
 
-The following videos demonstrate the application in real-world scenarios.
-
+The following video demonstrates the application in a real-world market environment.
 
 ### Fish Classification Using Camera
 
 This video demonstrates capturing fish images directly at a local market using the device camera and classifying them with the application.
 
-[▶️ Watch Camera-Based Fish Classification Demo](https://drive.google.com/file/d/12i4N9xYddJYF7TyNG7IumaDtxD7mCiB2/view?usp=sharing)
-
+<p align="center">
+  <a href="https://drive.google.com/file/d/12i4N9xYddJYF7TyNG7IumaDtxD7mCiB2/view?usp=sharing">
+    <img src="https://raw.githubusercontent.com/sajibbormon/Fish_Classification-Android-Application/main/Assets/5img.jpg" width="560" height="315" style="object-fit: contain;" alt="Watch Camera-Based Fish Classification Demo"/>
+  </a>
+  <br/>
+  ▶️ <b>Click the thumbnail to watch the demonstration video.</b>
+</p>
 
 ## ⚙️ How the Application Works
 
@@ -75,7 +89,7 @@ The application follows these steps to classify a fish image:
        Camera / Gallery
               |
               v
-        Input Image
+         Input Image
               |
               v
       Fish Segmentation
@@ -90,10 +104,10 @@ The application follows these steps to classify a fish image:
     TensorFlow Lite Model
               |
               v
-      Classification
+        Classification
               |
               v
-       Display Result
+        Display Result
 ```
 
 ## 🛠️ Technologies Used
@@ -105,10 +119,7 @@ The application follows these steps to classify a fish image:
 - **Deep Learning:** Image Classification and Image Segmentation
 - **Platform:** Android
 
-## 📂 
-
 ## 🚀 Application Prerequisites
-
 
 - Android Studio
 - Android device or emulator
@@ -117,7 +128,17 @@ The application follows these steps to classify a fish image:
 
 ## 🎯 Project Objective
 
-The main objective of this project is to develop an Android-based fish classification application that makes fish identification easier through image processing and deep learning. By combining background removal with TensorFlow Lite image classification, the application aims to improve the focus on fish objects and provide a convenient way to classify fish images in real-world environments. This is an output of Fish Classification Research.
+The main objective of this project is to develop an Android-based fish classification application that makes fish identification easier through image processing and deep learning. By combining background removal with TensorFlow Lite image classification, the application aims to improve the focus on fish objects and provide a convenient way to classify fish images in real-world environments.
+
+This application is developed as part of Fish Classification Research.
+
+## ⚠️ Limitations
+
+Although the application provides satisfactory classification results in most cases, its performance can be affected by variations in lighting conditions and background removal quality. Images captured under different lighting conditions may sometimes lead to incorrect classifications. Additionally, if the background removal process does not completely separate the fish from unwanted objects or background elements, the classification accuracy may decrease.
+
+In contrast, better background removal generally leads to more accurate predictions. During our testing, the application correctly classified fish images approximately 9 out of 10 times. However, occasional misclassification indicates that there is still room for improvement.
+
+Future work will focus on improving segmentation accuracy, handling different lighting conditions, and enhancing the classification model to achieve more consistent and reliable results in real-world environments.
 
 ## 👨‍💻 Developer
 
